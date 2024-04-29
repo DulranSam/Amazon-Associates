@@ -60,7 +60,7 @@ Router.route("/")
     }
   });
 
-Router.route("/:id")
+Router.route("/:id") //for later
   .put(async (req, res) => {
     const id = req.params.id;
     const { title, description, photo, category, commission, links } = req.body;
